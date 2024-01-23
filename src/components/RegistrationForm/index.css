@@ -1,0 +1,140 @@
+/* Write your CSS code here */
+.registration-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+
+.sub-registration-app-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-title {
+  color: #ea580c;
+  font-size: 35px;
+  margin-bottom: 70px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-label-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.label-field {
+  color: #475569;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  height: 35px;
+  border: 1px solid #cbd2d9;
+  padding: 0px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #9aa5b1;
+  outline: none;
+}
+
+.submit-btn {
+  background-color: #ea580c;
+  color: #fff;
+  height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 350px;
+  align-self: center;
+}
+
+.error-msg {
+  margin: 0;
+  color: #ff0b37;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.error-input-field {
+  background-color: #fef2f4;
+  border: 2px solid #ff0b37;
+}
+
+@media (min-width: 768px) {
+  .form-container {
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-label-container {
+    width: 80%;
+  }
+
+  .submit-btn {
+    width: 100px;
+  }
+}
+
+.submit-success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.success-img {
+  width: 70px;
+}
+
+.desc {
+  text-align: center;
+}
+
+.submit-response-btn {
+  background-color: #ea580c;
+  height: 30px;
+  width: 100%;
+  border: none;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 20px;
+  max-width: 350px;
+}
+
+@media (min-width: 768px) {
+  .submit-success-container {
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .submit-response-btn {
+    width: 200px;
+  }
+}
